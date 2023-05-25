@@ -1,0 +1,25 @@
+Port Type: 13ContainerPort
+Port Name: Felixstowe
+Capacity: 10000
+Number of containers: 670000
+
+Port Type: 13ContainerPort
+Port Name: Origin
+Capacity: 8000
+Number of containers: 50000
+
+Port Type: 11FishingPort
+Port Name: Libreville
+Capacity: 12000
+Number of fishing boats: 24000
+
+Port Type: 10CruisePort
+Port Name: PortMiami
+Capacity: 10000
+Number of cruise ships: 1300
+
+Port Type: 9FerryPort
+Port Name: MariTime
+Capacity: 13000
+Number of ferry ships: 900
+
