@@ -53,8 +53,6 @@ The FerryPort class overrides the virtual functions of the Port class to provide
 **File Input and Output
 
 The project reads port details from an input file and outputs the port details to an output file.
-The input file format is as follows:
-
 
 1. <portType> <portName> <capacity> <number>
 2. <portType>: The type of the port (ContainerPort, CruisePort, FishingPort, or FerryPort).
