@@ -1,0 +1,37 @@
+Port ID: 1
+Name: Port A
+Capacity: 200
+Location: USA
+Number of container ships: 2
+Container ships:
+Ship Name: MV Carrier
+Ship ID: 1
+Ship Capacity: 300
+-------------------------
+Ship Name: MV Portation
+Ship ID: 2
+Ship Capacity: 200
+-------------------------
+-------------------------
+Port ID: 2
+Name: Port B
+Capacity: 400
+Location: Bangladesh
+Number of cruise ships: 1
+Cruise ships:
+Ship Name: MV Harmony of Sea
+Ship ID: 1
+Ship Capacity: 500
+-------------------------
+-------------------------
+Port ID: 3
+Name: Port B
+Capacity: 400
+Location: Turkey
+Number of tanker ships: 1
+Tanker ships:
+Ship Name: MV Tanker
+Ship ID: 1
+Ship Capacity: 500
+-------------------------
+-------------------------
