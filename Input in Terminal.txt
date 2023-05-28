@@ -1,0 +1,68 @@
+Select the port type: 
+1. Container Port
+2. Cruise Port
+3. Fishing Port
+4. Ferry Port
+5. Tanker Port
+6. Military Port
+7. Cargo Port
+8. Exit
+1
+Enter port name: Port A
+Enter port capacity: 200
+Enter port location: USA
+Enter the number of ships: 2
+Enter ship 1 name: MV Carrier
+Enter ship 1 type : Container Ship
+Enter ship 1 capacity: 300
+Enter ship 2 name: MV Portation
+Enter ship 2 type : Container Ship
+Enter ship 2 capacity: 200
+
+Select the port type: 
+1. Container Port
+2. Cruise Port
+3. Fishing Port
+4. Ferry Port
+5. Tanker Port
+6. Military Port
+7. Cargo Port
+8. Exit
+2
+Enter port name: Port B
+Enter port capacity: 400
+Enter port location: Bangladesh
+Enter the number of ships: 1
+Enter ship 1 name: MV Harmony of Sea
+Enter ship 1 type : Cruise Ship
+Enter ship 1 capacity: 500
+
+Select the port type: 
+1. Container Port
+2. Cruise Port
+3. Fishing Port
+4. Ferry Port
+5. Tanker Port
+6. Military Port
+7. Cargo Port
+8. Exit
+5
+Enter port name: Port C
+Enter port capacity: 400
+Enter port location: Turkey
+Enter the number of ships: 1
+Enter ship 1 name: MV Tanker
+Enter ship 1 type : Tanker Ship
+Enter ship 1 capacity: 500
+
+Select the port type: 
+1. Container Port
+2. Cruise Port
+3. Fishing Port
+4. Ferry Port
+5. Tanker Port
+6. Military Port
+7. Cargo Port
+8. Exit
+8
+Port data saved to port_data.txt
