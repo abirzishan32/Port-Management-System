@@ -1,8 +1,8 @@
-**Port Management System**
+**Port Management System**:
 
 The Port Management System is a C++ program that helps you manage different types of ships in various ports. It allows you to add and remove ships from ports and provides information about the ports and their ships.
 
-**Features**
+**Features**:
 *Port Management*: The code allows you to manage different types of ports, including Container Ports, Cruise Ports, Fishing Ports, Ferry Ports, Tanker Ports, Military Ports, and Cargo Ports.
 
 *Ship Management*: You can add and remove ships from ports based on their respective types. This helps in organizing and tracking ships in the ports effectively.
@@ -15,7 +15,7 @@ The Port Management System is a C++ program that helps you manage different type
 
 *Object-Oriented Design*: The code follows an object-oriented design approach, utilizing classes such as Ship, Port, and specific port type classes like ContainerPort, CruisePort, etc. This design enhances code organization, modularity, and reusability.
 
-**OOP features used for implementation**
+**OOP features used for implementation**:
 
 1. Class
 2. Nested function
@@ -31,7 +31,7 @@ The Port Management System is a C++ program that helps you manage different type
 12. Static Variable
 13. Many more
 
-**How To Operate This Code**
+**How To Operate This Code**:
 
 *1. Installation:*
 a. Download the code files to your local machine or clone the repository.
