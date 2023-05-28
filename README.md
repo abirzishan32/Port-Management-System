@@ -1,104 +1,78 @@
-# Port-Management-System
-The project in C++ is about a system which manages different types of ports and ships associated with them such as
-"Container Port", "Cruise Port", "Fishing Port", "Ferry Port".
+**Port Management System**
 
-The project consists of the following classes:
+The Port Management System is a C++ program that helps you manage different types of ships in various ports. It allows you to add and remove ships from ports and provides information about the ports and their ships.
 
-**Ship
+**Features**
+*Port Management*: The code allows you to manage different types of ports, including Container Ports, Cruise Ports, Fishing Ports, Ferry Ports, Tanker Ports, Military Ports, and Cargo Ports.
 
-The Ship class represents a ship and has the following attributes:
-1. name: A string representing the name of the ship.
-2. type: A string representing the type of the ship.
+*Ship Management*: You can add and remove ships from ports based on their respective types. This helps in organizing and tracking ships in the ports effectively.
 
-**Port
+*Port Information*: The program provides detailed information about each port, including its name, capacity, location, and the number of ships present. This feature allows users to access important data about the ports easily.
 
-This is an abstract class which represents a port. It has the following attributes:
-1. name: A string representing the name of the port.
-2. capacity: An integer representing the maximum capacity of the port.
+*User-Friendly Interface*: The code offers an intuitive and user-friendly interface that guides users through the process of interacting with the Port Management System. It provides clear on-screen instructions for seamless usage.
 
-The Port class defines the following pure virtual functions:
+*File I/O*: The program includes a file input/output functionality that enables saving port data to a file named port_data.txt. This feature ensures data persistence and allows for future retrieval and analysis.
 
-1. addShip(Ship* ship): Adds a ship to the port.
-2. removeShip(Ship* ship): Removes a ship from the port.
-3. print() const: Prints the details of the port.
+*Object-Oriented Design*: The code follows an object-oriented design approach, utilizing classes such as Ship, Port, and specific port type classes like ContainerPort, CruisePort, etc. This design enhances code organization, modularity, and reusability.
 
-**ContainerPort
+**OOP features used for implementation**
 
-The ContainerPort class is a subclass of Port and represents a container port. It has an additional attribute:
+1. Class
+2. Nested function
+3. Abstraction
+4. Encapsulation
+5. Inheritance
+6. Polymorphism
+7. RTTI
+8. File I/O operation
+9. Constructor
+10. Managing Console I/0 Operation
+11. STL
+12. Static Variable
+13. Many more
 
-1. number_of_containers: An integer representing the current number of containers in the port.
-The ContainerPort class overrides the virtual functions of the Port class to provide specific functionality for container ports.
+**How To Operate This Code**
 
-**CruisePort
+*1. Installation:*
+a. Download the code files to your local machine or clone the repository.
+b. Open a terminal or command prompt and navigate to the directory where the code files are located.
 
-The CruisePort class is a subclass of Port and represents a cruise port. It has an additional attribute:
+*2. Running the Code:*
+The program will start and display the main menu on the screen.
 
-1. number_of_cruise_ships: An integer representing the current number of cruise ships in the port.
-The CruisePort class overrides the virtual functions of the Port class to provide specific functionality for cruise ports.
-
-**FishingPort
-
-The FishingPort class is a subclass of Port and represents a fishing port. It has an additional attribute:
-
-1. number_of_fishing_ships: An integer representing the current number of fishing ships in the port.
-The FishingPort class overrides the virtual functions of the Port class to provide specific functionality for fishing ports.
-
-**FerryPort
-
-The FerryPort class is a subclass of Port and represents a ferry port. It has an additional attribute:
-
-1. number_of_ferry_ships: An integer representing the current number of ferry ships in the port.
-The FerryPort class overrides the virtual functions of the Port class to provide specific functionality for ferry ports.
-
-**File Input and Output
-
-The project reads port details from an input file and outputs the port details to an output file.
-
-1. <portType> <portName> <capacity> <number>
-2. <portType>: The type of the port (ContainerPort, CruisePort, FishingPort, or FerryPort).
-3. <portName>: The name of the port.
-4. <capacity>: The maximum capacity of the port.
-5. <number>: The initial number of ships in the port.
+*3. Main Menu:*
+a. The main menu presents a list of available options. Each option is assigned a number.
+b. To select an option, enter the corresponding number and press Enter.
+c. The available options typically include:
+  i) Add a Port: Allows you to add a new port to the system.
+  ii) Remove a Port: Lets you remove an existing port from the system.
+  iii) Add a Ship: Allows you to add a ship to a specific port.
+  iv) Remove a Ship: Lets you remove a ship from a specific port.
+  v) View Port Information: Displays detailed information about a specific port.
+  vi) View All Ports: Shows a list of all ports in the system.
+  vii) Save Data: Saves the port data to a file for future retrieval.
+  viii) Exit: Terminates the program.
   
-**OOP features used for implementation:
+*4. Interacting with the System:*
+a. Follow the on-screen prompts to navigate through the system.
+b. Enter the required information when prompted, such as port name, ship details, or port selection.
+c. To go back to the main menu at any time, type 'back' or select the appropriate option if available.
+d. Utilize the options to manage ports, add or remove ships, view port information, and perform other operations as needed.
 
-1. Classes and Objects: The code defines multiple classes (Ship, Port, ContainerPort, CruisePort, FishingPort, FerryPort) that encapsulate data and behavior. Objects of these classes are created and used throughout the code.
+**5. File I/O:**
+a. The system provides the option to save port data to a file (e.g., port_data.txt).
+b. This file can be used to load previously saved port data when running the system in the future.
 
-2. Inheritance: The code utilizes inheritance to create specialized classes (ContainerPort, CruisePort, FishingPort, FerryPort) that inherit from a common base class (Port). This allows for code reuse and specialization.
+**Contact:**
+Name: Mohammad Abir Rahman
 
-3. Polymorphism: The code demonstrates polymorphism through the use of virtual functions and function overriding. The Port class declares pure virtual functions (addShip, removeShip, print), and the derived classes (ContainerPort, CruisePort, FishingPort, FerryPort) override these functions with their specific implementations.
+Roll: 2007026
 
-4. Encapsulation: The code utilizes encapsulation by encapsulating data and functionality within classes. Class member variables (name, capacity, number_of_containers, etc.) are declared as private, and access to them is provided through public member functions.
+Section: A
 
-5. Abstraction: The code demonstrates abstraction by providing a simplified interface to interact with port objects. The Port class defines pure virtual functions that provide an abstract interface for adding ships, removing ships, and printing port details. The concrete classes implement these functions according to their specific requirements.
+Year: 2nd
 
-6. Constructors: The classes (Ship, Port, ContainerPort, CruisePort, FishingPort, FerryPort) define constructors to initialize object instances. The constructors accept arguments to set the initial values of member variables.
+Term: 1st
 
-7. File Handling: The code uses file handling operations (ifstream, ofstream) to read input from a file (ports.txt) and write output to a file (port_details.txt). This allows for data persistence and external data source interaction.
- 
-8.Static Casting: The code uses static casting in the following instances:
-
-  a. In the addShip and removeShip member functions of the derived port classes (ContainerPort, CruisePort, FishingPort, FerryPort), static casting is performed to check the type of the ship passed as an argument and determine if it matches the specific ship type allowed in that port. For example, dynamic_cast<ContainerPort*>(port) is used to cast the Port pointer port to a ContainerPort pointer to perform the type check.
-  b. In the main function, when printing the port type to the output file, typeid(*port).name() returns a const char* containing the type name. A static cast is performed to convert it to a std::string for writing to the output file: static_cast<std::string>(typeid(*port).name()).
-
-9.Standard Template Library (STL): The code utilizes the STL in the following ways:
-  a. vector<Port*> is used to store and manage a collection of Port pointers. This dynamic container allows for easy addition and iteration over the port objects.
-  b. ifstream and std::ofstream are used for file input and output operations. They provide convenient ways to read from and write to files.
-  
-10. And many more.
-  
-**Usage
-  
-To use the port management system, follow these steps:
-
-1. Prepare an input file (ports.txt) with the port details in the specified format.
-2. Compile and run the program.
-3. The program will generate an output file (port_details.txt) containing the port details.
-4. Read the port details from the output file and also at the terminal for further analysis.
-  
-  
-  
-  
-  
-
+E-mail: rahman2007026@stud.kuet.ac.bd
 
